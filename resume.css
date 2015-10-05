@@ -28,13 +28,17 @@ body {
     height:206px;
 }
 .picture{
+    position: relative;
     display: block;
-    width: 200px;
-    height:200px;
+    width: 300px;
+    height:300px;
     border-radius: 50%;
     border: 1px solid #eee;
     padding: 5px;
     background:#fff;
+    float:right;
+    right: 150px;
+    top: 70px;
 }
 .Bighead {
     background-image: url(Bighead.jpg);
@@ -42,11 +46,33 @@ body {
     background-position:center center;
     height: 100%;
     border-radius:50%;
-    
+}
+.flogo{
+    position: relative;
+    right: 160px;
+    top: 420px;
+    display:block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    padding: 5px;
+    background:#fff;
+    float: right;
+}
+.f{
+    background-image: url(FB_logo.png);
+    background-size:cover;
+    background-position:center center;
+    height: 100%;
+    border-radius:50%;
 }
 
+
+
 .basic {
-	
+	position: relative;
+    left: 50px;
 	margin: 0px;
 	padding: 0px;
 	opacity: .70;
@@ -59,6 +85,8 @@ body {
 }
 
 .contact {
+    position: relative;
+    left: 50px;
 	margin: 0px;
 	padding: 0px;
 	opacity: .70;
@@ -81,6 +109,8 @@ hr:after {  /* Not really supposed to work, but does */
 }
 
 .skill {
+    position: relative;
+    left: 50px;
 	margin: 0px;
 	padding: 0px;
 	opacity: .70;
