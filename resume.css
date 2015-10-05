@@ -1,0 +1,93 @@
+/*
+.basic p  {
+	z-index:2;
+	position: relative;
+	margin: 0px;
+	padding: 6px 0px 6px 0px;
+	
+} 
+*/
+body {
+	margin: 0;
+	padding: 0;
+    background: url("backg6.jpg") transparent repeat;
+    background-color: #556B2F;
+    width: 100%;
+	height: 1200px;
+	font-family: "Georgia","DFKai-sb",; 
+	font-size: 20px;
+	line-height: 110%;
+	color: #fff;
+    
+}
+
+.image {
+    
+    background-image: url("highway1.png");
+    width: 100%;
+    height:206px;
+}
+.picture{
+    display: block;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    padding: 5px;
+    background:#fff;
+}
+.Bighead {
+    background-image: url(Bighead.jpg);
+    background-size:cover;
+    background-position:center center;
+    height: 100%;
+    border-radius:50%;
+    
+}
+
+.basic {
+	
+	margin: 0px;
+	padding: 0px;
+	opacity: .70;
+}
+
+.basic p {
+    position: relative;
+	margin: 0px;
+	padding: 2px 0px 6px 10px;
+}
+
+.contact {
+	margin: 0px;
+	padding: 0px;
+	opacity: .70;
+}
+
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 20px 5px white;
+   
+}
+hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+.contact p {
+    position: relative;
+	margin: 0px;
+	padding: 2px 0px 6px 10px;
+}
+
+.skill {
+	margin: 0px;
+	padding: 0px;
+	opacity: .70;
+}
+
+.skill p {
+    position: relative;
+	margin: 0px;
+	padding: 2px 0px 6px 10px;
+}
